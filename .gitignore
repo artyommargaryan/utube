@@ -39,21 +39,21 @@ out/
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # Compiled output
-/dist
-/tmp
-/out-tsc
-/bazel-out
+/frontend/utube-ui/dist
+/frontend/utube-ui/tmp
+/frontend/utube-ui/out-tsc
+/frontend/utube-ui/bazel-out
 
 # Node
-/node_modules
-npm-debug.log
-yarn-error.log
+/frontend/utube-ui/node_modules
+/frontend/utube-ui/npm-debug.log
+/frontend/utube-ui/yarn-error.log
 
 # IDEs and editors
-.c9/
-*.launch
-.settings/
-*.sublime-workspace
+/frontend/utube-ui/.c9/
+/frontend/utube-ui/*.launch
+/frontend/utube-ui/.settings/
+/frontend/utube-ui/*.sublime-workspace
 
 # Visual Studio Code
 .vscode/*
@@ -64,17 +64,15 @@ yarn-error.log
 .history/*
 
 # Miscellaneous
-/.angular/cache
-.sass-cache/
-/connect.lock
-/coverage
-/libpeerconnection.log
-testem.log
-/typings
+/frontend/utube-ui/.angular/cache
+/frontend/utube-ui/.sass-cache/
+/frontend/utube-ui//connect.lock
+/frontend/utube-ui/coverage
+/frontend/utube-ui/libpeerconnection.log
+/frontend/utube-ui/testem.log
+/frontend/utube-ui/typings
 
 # System files
 .DS_Store
 Thumbs.db
 
-/frontend/utube-ui/.angular
-/frontend/utube-ui/node_modules
