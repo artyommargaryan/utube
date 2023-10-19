@@ -1,0 +1,42 @@
+spring:
+  data:
+    mongodb:
+      host: your-host-name
+      port: your-port-name
+      database: your-db-name
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: your-issuer-uri
+
+auth0:
+  audience: your-audience-ip-and-port
+  userInfoEndpoint: your-userInfoEndpoint-uri
+
+logging:
+  level:
+    org:
+      springframework:
+        security: DEBUG
+
+cloud:
+  aws:
+    credentials:
+      accessKey: your-accessKey
+      secretKey: your-secretKey
+    region:
+      static: your-region
+    stack:
+      auto: false
+
+aws:
+  accessKeyId: your-accessKey
+  secretKey: your-secretKey
+  endpoint: your-s3-endpoint
+  s3:
+    bucketName: your-bucket-name

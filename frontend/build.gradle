@@ -1,0 +1,12 @@
+// build.gradle
+plugins {
+    id 'org.siouan.frontend-jdk17' version '8.0.0'
+}
+
+frontend {
+    nodeVersion = '18.17.1'
+    // See 'scripts' section in your 'package.json file'
+    cleanScript = 'run clean'
+    assembleScript = 'run assemble'
+    checkScript = 'run check'
+}

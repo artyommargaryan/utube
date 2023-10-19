@@ -1,0 +1,5 @@
+rootProject.name = 'utube'
+
+include 'backend'
+include 'frontend'
+
